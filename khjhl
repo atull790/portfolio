@@ -1,0 +1,40 @@
+@keyframes cf4FadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+#cf4a img:nth-of-type(1) {
+  animation-name: cf4FadeInOut;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+#cf4a img:nth-of-type(2) {
+  animation-name: cf4FadeInOut;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+#cf4a img:nth-of-type(3) {
+  animation-name: cf4FadeInOut;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+#cf4a img:nth-of-type(4) {
+  animation-name: cf4FadeInOut;
+  animation-direction: alternate;
+  animation-delay: 0;
+}

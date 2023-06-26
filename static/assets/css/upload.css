@@ -1,0 +1,73 @@
+/* CSS code for form.css */
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: tan;
+  margin: 57px;
+}
+
+.form-container form label {
+  margin-bottom: 10px;
+}
+
+.form-container form input[type="text"],
+.form-container form input[type="email"],
+.form-container form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form-container form a {
+  margin-top: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.form-container form a:hover {
+  text-decoration: underline;
+}
+/* CSS code for form.css */
+
+.form-container {
+  background-color: transparent;
+  background-image: url('https://i.pinimg.com/736x/53/25/8e/53258e7d23bd4e468609dbafce30c0c8.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
